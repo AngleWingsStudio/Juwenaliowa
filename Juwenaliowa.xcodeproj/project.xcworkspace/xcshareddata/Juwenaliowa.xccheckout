@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>63FCD054-406D-4FBF-92D8-585C880571C6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Juwenaliowa</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9324D7BCA1469BE3D989AFE1F5F86ED9CBA6F215</key>
+		<string>https://github.com/AngleWingsStudio/Juwenaliowa.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Juwenaliowa.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9324D7BCA1469BE3D989AFE1F5F86ED9CBA6F215</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AngleWingsStudio/Juwenaliowa.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9324D7BCA1469BE3D989AFE1F5F86ED9CBA6F215</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9324D7BCA1469BE3D989AFE1F5F86ED9CBA6F215</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Juwenaliowa</string>
+		</dict>
+	</array>
+</dict>
+</plist>
