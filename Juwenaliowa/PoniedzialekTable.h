@@ -18,5 +18,4 @@
 @property(nonatomic,strong) NSArray *PoniedzialekDescription;
 @property(nonatomic,strong) NSArray *PoniedzialekGodzina;
 
-
 @end

@@ -21,4 +21,15 @@
     // Configure the view for the selected state
 }
 
+
+-(void)viewWillAppear{
+   /* CGRect frame = _PoniedzialekGodzina.frame;
+    frame.origin.y=10;//pass the cordinate which you want
+    frame.origin.x= 177;//pass the cordinate which you want
+    _PoniedzialekGodzina.frame= frame;*/
+    
+   // _PoniedzialekGodzina.center=CGPointMake(177, 100);
+   // _PonImage.center=CGPointMake(177, 10);
+}
+
 @end
