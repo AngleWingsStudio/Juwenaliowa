@@ -9,8 +9,8 @@
 #import "SponsorzyTable.h"
 #import "SWRevealViewController.h"
 #import "TableCell.h"
-#import "TableCell1.h"
-#import "TableCell2.h"
+//#import "TableCell1.h"
+//#import "TableCell2.h"
 
 @interface SponsorzyTable ()
 
@@ -25,11 +25,11 @@
     
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     
-    _ZlotySponsorImage=@[@"2.png",];
-    _SrebrnySponsorImage=@[@"2.png"];
-    _InnySponsorImage=@[@"1.png",];
+ _ZlotySponsorImage=@[@"2.png"];
+    //_SrebrnySponsorImage=@[@"ikona.png",@"ikona.png"];
+   // _InnySponsorImage=@[@"not_available_icon.gif",@"not_available_icon.gif"];
 
-    
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,35 +45,36 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return _ZlotySponsorImage.count;
-    return _SrebrnySponsorImage.count;
-    return _InnySponsorImage.count;
+   // return _SrebrnySponsorImage.count;
+    //return _InnySponsorImage.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier= @"TableCell";
-    TableCell *cell= [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+  static NSString *CellIdentifier= @"TableCell";
+  TableCell *cell= [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    static NSString *CellIdentifier1= @"TableCell1";
-    TableCell1 *cell1= [tableView dequeueReusableCellWithIdentifier:CellIdentifier1 forIndexPath:indexPath];
+   // static NSString *CellIdentifier1= @"TableCell1";
+  //  TableCell1 *cell1= [tableView dequeueReusableCellWithIdentifier:CellIdentifier1 forIndexPath:indexPath];
     
-    static NSString *CellIdentifier2= @"TableCell2";
-    TableCell2 *cell2= [tableView dequeueReusableCellWithIdentifier:CellIdentifier2 forIndexPath:indexPath];
+   // static NSString *CellIdentifier2= @"TableCell2";
+   // TableCell2 *cell2= [tableView dequeueReusableCellWithIdentifier:CellIdentifier2 forIndexPath:indexPath];
     
-    int row=[indexPath row];
-    int row1=[indexPath row];
-    int row2=[indexPath row];
+   int row=[indexPath row];
+   // int row1=[indexPath row];
+   // int row2=[indexPath row];
     
     
-    cell.ZlotySponsorImage.image=[UIImage imageNamed:_ZlotySponsorImage[row]];
-    cell1.SrebrnySponsorImage.image=[UIImage imageNamed:_SrebrnySponsorImage[row1]];
-    cell2.InnySponsorImage.image=[UIImage imageNamed:_InnySponsorImage[row2]];
- 
+   cell.ZlotySponsorImage.image=[UIImage imageNamed:_ZlotySponsorImage[row]];
+   // cell1.SrebrnySponsorImage.image=[UIImage imageNamed:_SrebrnySponsorImage[row1]];
+   // cell2.InnySponsorImage.image=[UIImage imageNamed:_InnySponsorImage[row2]];
+
+
     
-    return cell;
+   return cell;
 }
 
 
 
-
 @end
+

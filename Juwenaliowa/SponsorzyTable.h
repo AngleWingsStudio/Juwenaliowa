@@ -12,8 +12,8 @@
 
 @property (weak,nonatomic) IBOutlet UIBarButtonItem *barButton;
 @property(nonatomic,strong) NSArray *ZlotySponsorImage;
-@property(nonatomic,strong) NSArray *SrebrnySponsorImage;
-@property(nonatomic,strong) NSArray *InnySponsorImage;
+//@property(nonatomic,strong) NSArray *SrebrnySponsorImage;
+//@property(nonatomic,strong) NSArray *InnySponsorImage;
 
 
 @end
